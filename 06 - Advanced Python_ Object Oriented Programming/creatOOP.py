@@ -5,14 +5,14 @@ class player:
 
     def __init__(self, name, age):
         if player.memberships:
-            self.name = name
-            self.age = age
+            self._name = name
+            self._age = age
 
     def shout(self):
-        print(f'my name is {self.name}')
+        print(f'my name is {self._name}')
 
     def run(self, hello):
-        print(f'{hello} my name is {self.name}')
+        print(f'{hello} my name is {self._name}')
 
     @classmethod
     def add_things(cls, num1, num2):
