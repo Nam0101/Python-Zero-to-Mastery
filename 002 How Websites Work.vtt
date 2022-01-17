@@ -1,0 +1,313 @@
+WEBVTT
+Kind: captions
+Language: vi
+
+00:00.560 --> 00:03.880
+Vậy làm thế nào để các trang web hoạt động bây giờ?
+
+00:04.010 --> 00:09.890
+Tôi có toàn bộ khóa học phát triển web, vì đây là khóa học về trăn, chúng tôi sẽ không đi
+
+00:09.890 --> 00:12.240
+siêu, siêu sâu vào chủ đề này.
+
+00:12.260 --> 00:14.900
+Thay vào đó, chúng tôi sẽ tập trung vào khía cạnh trăn trở của mọi thứ.
+
+00:15.380 --> 00:21.800
+Nhưng tôi muốn giúp bạn hiểu những gì chúng tôi đang xây dựng và mọi thứ hoạt động như thế nào, bởi vì hy vọng
+
+00:21.800 --> 00:27.890
+vào cuối khóa học này, bạn có thể thực sự thay đổi danh mục đầu tư của mình lên danh mục đầu tư của mình, để
+
+00:27.890 --> 00:31.970
+sở thích của riêng bạn và giới thiệu các dự án mà chúng tôi đã xây dựng trong suốt khóa học.
+
+00:33.120 --> 00:40.020
+Vì vậy, tôi có một trang web cho bạn ở đây, chúng tôi có X CD, đây chỉ là một trang web truyện tranh vui nhộn.
+
+00:41.240 --> 00:47.270
+Nếu tôi nhấp vào làm mới ở đây hoặc nhập URL này, tôi sẽ được đưa đến trang web này, nhưng.
+
+00:48.140 --> 00:49.650
+Điều này thực sự hoạt động như thế nào?
+
+00:49.820 --> 00:56.110
+Làm cách nào để trình duyệt của tôi, trong trường hợp này là Google Chrome, có thể hiển thị trang Web này cho tôi?
+
+00:56.840 --> 00:58.700
+Tôi cần được kết nối với Internet.
+
+00:58.740 --> 00:59.120
+Đúng.
+
+00:59.360 --> 01:03.770
+Vì vậy, có một số loại dữ liệu đang được chuyển để tôi có thể nhìn thấy điều này.
+
+01:04.610 --> 01:06.310
+Vì vậy, chúng ta hãy khám phá cách thức hoạt động của nó.
+
+01:07.500 --> 01:10.740
+Và nhìn vào đó, tôi đã tạo ra một sơ đồ nhỏ đẹp cho bạn.
+
+01:11.690 --> 01:15.670
+Và trong sơ đồ này, tôi sẽ cố gắng chỉ cho bạn biết chính xác cách nó hoạt động.
+
+01:15.710 --> 01:16.600
+Nó khá đơn giản.
+
+01:17.360 --> 01:21.320
+Chúng tôi có trình duyệt của mình ngay tại đây, có thể là Google Chrome.
+
+01:21.320 --> 01:23.510
+Nó có thể là SFAR, nó có thể là Firefox.
+
+01:24.020 --> 01:24.790
+Nó không quan trọng.
+
+01:25.520 --> 01:32.780
+Trình duyệt này, chúng tôi có thể nhập vào đó một trang web hoặc có thể Google cho một trang web và sau đó nhấp vào
+
+01:32.780 --> 01:36.410
+một trang web khi chúng ta nhấp vào một trang web.
+
+01:37.220 --> 01:45.410
+Điều xảy ra là thông qua Internet, trình duyệt thực hiện một yêu cầu đến một máy khác.
+
+01:46.130 --> 01:52.220
+Và chiếc máy này, chúng tôi gọi là máy chủ, được đặt ở bất kỳ đâu trên thế giới.
+
+01:52.400 --> 01:59.420
+Nó không thực sự quan trọng bởi vì thông qua mạng Internet của chúng tôi, trình duyệt sẽ nói, này,
+
+01:59.870 --> 02:06.980
+trang web này, ai sở hữu trang web đó hoặc máy nào có thể phục vụ tôi các tệp cho trang web đó?
+
+02:08.080 --> 02:15.490
+Và bằng cách sử dụng một số logic phức tạp, nó sẽ tìm thấy máy chủ này, máy chủ này vào cuối ngày
+
+02:15.490 --> 02:19.330
+một máy tính và chúng tôi thực sự sẽ cho bạn thấy và triển khai máy chủ của riêng mình.
+
+02:19.810 --> 02:27.400
+Vâng, nó chỉ đơn giản nói, này, hãy cho tôi một số dữ liệu, bởi vì không có dữ liệu, tôi không thể hiển thị bất kỳ thứ gì
+
+02:27.400 --> 02:28.030
+trên một trang web.
+
+02:28.960 --> 02:38.320
+Và máy chủ, trước hết, chúng giao tiếp qua một thứ gọi là P và S vì trình duyệt
+
+02:38.320 --> 02:41.830
+và máy chủ là hai máy khác nhau, phải không?
+
+02:42.190 --> 02:45.340
+Trình duyệt hiện có trên máy tính xách tay của tôi.
+
+02:46.700 --> 02:50.900
+Và máy, là một máy chủ, nó có thể ở bất cứ đâu trên thế giới.
+
+02:52.180 --> 02:58.870
+Họ cần giao tiếp theo một cách nào đó và chúng tôi cần một quy tắc để nói, bạn biết đấy, chúng tôi không muốn tất cả những máy móc này
+
+02:58.870 --> 03:01.390
+nói chuyện với nhau mà không có quy tắc tại chỗ.
+
+03:01.780 --> 03:07.630
+Ví dụ: chúng ta có thể đồng ý rằng khi chúng ta giao tiếp giữa bạn và tôi, tôi sẽ nói bằng tiếng Anh
+
+03:07.810 --> 03:16.870
+theo cách tương tự HDP và HTTPS, là phiên bản giao tiếp được mã hóa bảo mật, cho phép tôi
+
+03:16.870 --> 03:21.640
+nói, này, bạn có thể cho tôi dữ liệu và máy chủ để hiểu được không?
+
+03:22.510 --> 03:27.490
+Ồ, trang web này hoặc trình duyệt này cần dữ liệu mà tôi có.
+
+03:29.320 --> 03:31.210
+Nếu tôi quay lại trang web này ở đây.
+
+03:32.240 --> 03:41.210
+Bạn thấy rằng tôi đang sử dụng GPS và nó nói rằng tôi muốn sử dụng giao thức GPS, đó là ngôn ngữ để
+
+03:41.210 --> 03:44.210
+thông báo rằng tôi muốn truy cập trang web này.
+
+03:44.780 --> 03:50.780
+Vì vậy, ngay sau khi tôi nhấn enter, nó sẽ thực hiện yêu cầu đó đến một máy chủ ở đâu đó.
+
+03:51.140 --> 03:54.620
+Và sau đó máy chủ sẽ phản hồi với dữ liệu này.
+
+03:55.730 --> 03:57.020
+Hãy tiếp tục với sơ đồ của chúng tôi.
+
+03:57.910 --> 04:05.270
+Vì vậy, yêu cầu vừa được thực hiện, máy chủ này chỉ xảy ra với ba tệp mà chúng tôi cần.
+
+04:06.010 --> 04:11.850
+Một là tệp HTML và tệp này là văn bản hoặc nội dung của trang web.
+
+04:12.280 --> 04:14.620
+Cái còn lại là hồ sơ vụ án.
+
+04:15.010 --> 04:18.430
+Và điều này chứa tất cả các phong cách của trang web.
+
+04:18.940 --> 04:25.620
+Đó là màu sắc, có thể là một số phông chữ, có thể là vị trí của các yếu tố, bất cứ điều gì liên quan đến phong cách.
+
+04:25.630 --> 04:28.600
+Vì vậy, nó không giống như một đoạn văn bản nhàm chán.
+
+04:28.930 --> 04:30.460
+Và sau đó chúng ta có JavaScript.
+
+04:30.730 --> 04:34.180
+JavaScript là thứ mang lại hành vi cho các trang web.
+
+04:34.630 --> 04:41.920
+Khi tôi đăng nhập vào Facebook hoặc có thể tweet điều gì đó trên Twitter, JavaScript cho phép tôi thực hiện những
+
+04:41.920 --> 04:49.840
+bởi vì chỉ với HTML và CSF, chúng ta chỉ có văn bản và một số kiểu dáng đẹp.
+
+04:50.050 --> 04:55.240
+Với JavaScript, chúng ta có thể thực hiện các hành động, nhưng chúng ta không cần phải tập trung vào đó quá nhiều.
+
+04:55.480 --> 05:03.790
+Tất cả những gì chúng ta cần biết là máy chủ, bởi vì nó là một máy tính trên các tệp của nó, có ba tệp này
+
+05:03.790 --> 05:06.370
+cho chúng tôi và ba tệp này.
+
+05:06.400 --> 05:13.450
+Điều gì xảy ra sẽ được gửi đến trình duyệt bởi vì trình duyệt thực sự, rất tốt và đã hỏi, này,
+
+05:13.450 --> 05:14.290
+bạn có thể cung cấp cho tôi dữ liệu?
+
+05:15.160 --> 05:22.420
+Và máy chủ nói, chắc chắn rồi, nó ở đây và gửi cho chúng tôi ba tệp này và ba tệp này, khi
+
+05:22.420 --> 05:25.270
+chúng được gửi lại, trình duyệt hiểu chúng.
+
+05:26.280 --> 05:32.250
+Và bởi vì nó hiểu chúng, mặc dù đối với chúng tôi, nó có thể trông giống như vô nghĩa, nó có thể hiển thị
+
+05:32.280 --> 05:33.810
+trang web đó cho chúng tôi.
+
+05:34.440 --> 05:35.670
+Nhưng hãy để tôi hỏi bạn một câu hỏi.
+
+05:36.090 --> 05:39.470
+Cho đến bây giờ, tôi vẫn chưa thực sự nói về Python.
+
+05:39.780 --> 05:41.570
+Tôi nghĩ đây là một con trăn, Cassandre.
+
+05:41.710 --> 05:43.950
+Bạn đã nói với tôi tất cả những điều này mà tôi không quan tâm?
+
+05:44.700 --> 05:50.410
+Chà, bởi vì trong đây có một đoạn thực sự có thể được viết bằng Python.
+
+05:51.150 --> 05:52.500
+Bạn có đoán được đó là gì không?
+
+05:53.770 --> 05:58.720
+Nếu bạn đoán được máy chủ, xin chúc mừng, bạn nhận được năm nghìn điểm.
+
+06:00.080 --> 06:06.080
+Bạn thấy đấy, trình duyệt là một thứ gì đó tốt, nó là một ứng dụng chúng ta tải xuống trên máy tính của mình, phải không?
+
+06:07.480 --> 06:13.410
+Nhưng cho đến nay, máy chủ là một chiếc hộp bí ẩn, một cỗ máy, một máy tính ở đâu đó.
+
+06:14.650 --> 06:22.570
+Nhưng các lập trình viên Python thực sự có thể viết logic và các quy tắc mà máy chủ có thể hoạt động.
+
+06:23.410 --> 06:31.090
+Vì vậy, tất cả thông tin liên lạc này, này, bạn có thể cung cấp cho tôi dữ liệu có thể được diễn giải bằng Python và sau đó gửi đi
+
+06:31.120 --> 06:34.720
+dữ liệu này vào trình duyệt bằng Python.
+
+06:36.090 --> 06:42.360
+Và chúng tôi sẽ xây dựng máy chủ của riêng mình cho một vài video tiếp theo, nhưng cũng liên quan đến những e-mail này,
+
+06:42.360 --> 06:47.010
+CSF và các tệp JavaScript, vì vậy chúng tôi thực sự có thể hiển thị một cái gì đó giống như một trang web.
+
+06:47.760 --> 06:50.810
+Bây giờ, tôi muốn kết thúc video này bằng một câu hỏi.
+
+06:51.420 --> 06:56.070
+Bạn có nghĩ rằng máy chủ này phải được viết bằng Python không?
+
+06:56.880 --> 06:57.570
+Bạn nghĩ sao?
+
+06:58.350 --> 06:59.300
+Không, nó không.
+
+06:59.460 --> 06:59.820
+Đúng.
+
+07:00.180 --> 07:03.930
+Trình duyệt không quan tâm máy này như thế nào.
+
+07:04.290 --> 07:07.080
+Tất cả những gì quan tâm là ba tệp này.
+
+07:08.070 --> 07:12.690
+Và bởi vì chúng tôi đang nói trong giao thức HDP https này.
+
+07:13.720 --> 07:18.700
+Trình duyệt nói, này, tôi không quan tâm bạn nói ngôn ngữ gì, tôi không quan tâm bất cứ điều gì, tôi chỉ đi
+
+07:18.700 --> 07:19.810
+để cho bạn biết thông qua điều này.
+
+07:21.100 --> 07:26.590
+Chỉ cần cung cấp cho tôi dữ liệu mà tôi muốn và chúng tôi có thể làm bất cứ điều gì logic chúng tôi muốn ở đây.
+
+07:26.740 --> 07:28.690
+Tôi có thể gửi email từ đây nếu tôi muốn.
+
+07:28.690 --> 07:30.250
+Tôi có thể gửi tin nhắn văn bản.
+
+07:30.520 --> 07:32.770
+Tôi có thể làm các phép toán.
+
+07:33.340 --> 07:35.500
+Tôi có thể chơi trò chơi trên máy tính này nếu tôi muốn.
+
+07:35.500 --> 07:41.950
+Nó không thực sự quan trọng miễn là tôi có thể gửi các tệp này trở lại trình duyệt.
+
+07:42.400 --> 07:50.350
+Vì vậy, chúng ta có thể làm điều đó với Python, nhưng chúng ta có thể làm điều đó với các ngôn ngữ khác như Noad, như PHP, như
+
+07:50.350 --> 07:54.730
+Java, vì vậy chúng ta có thể viết một máy chủ bằng bất kỳ loại ngôn ngữ nào.
+
+07:55.210 --> 07:58.690
+Điều duy nhất chúng tôi thực sự có thể làm là ở phía trình duyệt.
+
+07:58.810 --> 08:04.450
+Về phía trình duyệt, chúng tôi phải sử dụng ba tệp này bởi vì, ít nhất là về mặt chung,
+
+08:04.480 --> 08:08.530
+nó chỉ có thể hiểu JavaScript, là một ngôn ngữ lập trình khác.
+
+08:09.340 --> 08:09.730
+Được rồi.
+
+08:09.850 --> 08:12.790
+Chúng ta hãy khám phá chủ đề này nhiều hơn một chút trong video tiếp theo.
+

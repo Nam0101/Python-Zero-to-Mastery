@@ -1,0 +1,52 @@
+WEBVTT
+
+00:00.600 --> 00:07.590
+Oh, boy, we have an extra exciting section for you, this is a section that I absolutely love.
+
+00:07.770 --> 00:12.930
+I got into programming because of Web development, and in this section, we're going to explore how
+
+00:12.930 --> 00:16.260
+we can use Python in Web development.
+
+00:16.260 --> 00:22.590
+And actually, the way we use Python in Web development will also work with mobile development.
+
+00:23.190 --> 00:29.790
+And this is a really exciting field because, well, as you're aware, there's lots of Web applications,
+
+00:29.820 --> 00:32.100
+there's lots of mobile applications.
+
+00:32.280 --> 00:37.170
+And using Python, we can actually help build these applications.
+
+00:38.220 --> 00:44.280
+In this section, I'm going to give you a general overview of web development, what that involves,
+
+00:44.430 --> 00:48.000
+how websites actually work, how browsers work.
+
+00:48.720 --> 00:56.130
+We're also going to use Python to build our own server, our own portfolio Web page, where people can
+
+00:56.130 --> 01:03.270
+view our portfolios and actually submit maybe a request to work with you or send you a message and actually
+
+01:03.270 --> 01:05.710
+store it in places like a database.
+
+01:06.600 --> 01:13.290
+So by the end of this section, you're going to have your own portfolio website that is live and in
+
+01:13.290 --> 01:16.440
+production, it's going to be a very, very fun one.
+
+01:17.220 --> 01:25.170
+But in order for us to learn how we can use Python, we need to first understand how the web works.
+
+01:25.860 --> 01:29.520
+So in the next video, let's learn how the Web works.
+
+01:30.100 --> 01:31.690
+I'll see in that one by.
